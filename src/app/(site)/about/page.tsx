@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '关于我们 - 123.SS',
-  description: '了解123.SS AI导航网站的使命和目标',
+  title: '关于我们',
+  description: '了解导航网站的使命和目标',
 };
 
 export default function AboutPage() {
@@ -36,7 +36,7 @@ export default function AboutPage() {
 
         <div className="space-y-6 text-gray-600">
           <p>
-            123.SS是一个AI网址导航，专注于收录和推荐优质AI服务和应用。我们的使命是帮助用户快速找到适合自己需求的AI工具，提高工作效率和创新能力。
+            专注于收录和推荐优质服务和应用。我们的使命是帮助用户快速找到适合自己需求的AI工具，提高工作效率和创新能力。
           </p>
 
           <h2 className="text-xl font-semibold text-gray-700 mt-8">我们的目标</h2>

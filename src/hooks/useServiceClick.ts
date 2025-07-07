@@ -6,7 +6,7 @@
  */
 export function useServiceClick() {
   // 设置统一的来源值
-  const DEFAULT_REF_SOURCE = 'https://123.ss';
+  const DEFAULT_REF_SOURCE = 'https://nav-to-hell.vercel.app/';
 
   /**
    * 处理服务点击事件

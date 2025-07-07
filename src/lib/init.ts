@@ -48,8 +48,8 @@ export const initializeSystem = async () => {
     if (settingCount === 0) {
       await prisma.setting.createMany({
         data: [
-          { key: 'siteName', value: '123.SS' },
-          { key: 'siteDescription', value: '收录优质AI服务和应用的导航网站' },
+          { key: 'siteName', value: 'NavToHell' },
+          { key: 'siteDescription', value: '收录优质服务和应用的导航网站' },
         ],
       });
 
