@@ -43,7 +43,7 @@ export default function Navbar({ siteName }: NavbarProps) {
             <Link href="/" className="text-3xl font-bold text-gray-800 flex items-center">
               <Image src="/logo.svg" alt={siteName} width={40} height={40} className="mr-1.5" />
               <div>
-                123<span className="text-normal text-brand-400">.SS</span>
+                NavTo<span className="text-normal text-brand-400">Hell</span>
               </div>
             </Link>
           </div>

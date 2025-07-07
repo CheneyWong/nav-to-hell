@@ -35,7 +35,7 @@ export async function getSiteSettings(): Promise<SiteSettings> {
 
     // 设置默认值
     const result = {
-      siteName: settingsObject.siteName || 'AI导航',
+      siteName: settingsObject.siteName || '导航',
       siteDescription: settingsObject.siteDescription || '收录优质AI服务和应用的导航网站',
       statisticsCode: settingsObject.statisticsCode || '',
       seoTitle: settingsObject.seoTitle || '',
@@ -49,7 +49,7 @@ export async function getSiteSettings(): Promise<SiteSettings> {
     console.error('获取设置失败:', error);
     // 返回默认设置
     return {
-      siteName: 'AI导航',
+      siteName: '导航',
       siteDescription: '收录优质AI服务和应用的导航网站',
       statisticsCode: '',
       seoTitle: '',
